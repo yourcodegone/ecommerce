@@ -6,16 +6,18 @@ import Navbar from './components/Navbar'
 import ProductList from './components/ProductList'
 import Details from './components/Details'
 import Default from './components/Default'
-import Cart from './components/Cart'
+import Cart from './components/Cart/Cart'
 
 function App() {
   return (
    <>
     <Navbar />
-    <ProductList />
-    <Details />
-    <Default />
-    <Cart />
+    <Switch>
+      <Route exact path="/" component={ProductList} />
+      <Route path="/details" component={Details} />
+      <Route path="/cart" component={Cart} />
+      <Route component={Default} />
+    </Switch>
    </>
   );
 }

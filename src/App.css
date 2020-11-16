@@ -15,7 +15,7 @@ body{
 /* custom classes */
 .text-title{
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.3 rem;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
 .text-blue{
