@@ -99,13 +99,13 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-    title: "Lorem",
-    img: "img/product-1.png",
-    price: 10,
-    company: "Lorem",
-    info:
-      "Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-    inCart: false,
-    count: 0,
-    total: 0,
+  title: "Lorem",
+  img: "img/product-1.png",
+  price: 10,
+  company: "Lorem",
+  info:
+    "Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+  inCart: false,
+  count: 0,
+  total: 0,
 };
